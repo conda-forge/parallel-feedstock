@@ -15,6 +15,8 @@ build:
   skip: True  # [win]
 
 requirements:
+  build:
+    - perl
   run:
     - perl
   
