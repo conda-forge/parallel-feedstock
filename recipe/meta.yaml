@@ -11,16 +11,18 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
-  skip: True  # [win]
+  number: 1
 
 requirements:
+  build:
+    - make
   run:
     - perl
-  
+
 test:
   commands:
-    - parallel --version
+    - parallel --version  # [not win]
+    - bash -c 'parallel --version'  # [win]
 
 about:
   home: http://www.gnu.org/software/parallel/
