@@ -16,6 +16,8 @@ build:
 requirements:
   build:
     - make
+    - m2-grep  # [win]
+    - m2-gawk  # [win]
   run:
     - perl
 
