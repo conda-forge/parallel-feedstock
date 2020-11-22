@@ -25,7 +25,7 @@ requirements:
 test:
   commands:
     - parallel --version  # [not win]
-    - bash -c 'PARALLEL_SHELL="bash" parallel --plain --version'  # [win]
+    - bash -lc 'parallel --plain --version'  # [win]
 
 about:
   home: http://www.gnu.org/software/parallel/
