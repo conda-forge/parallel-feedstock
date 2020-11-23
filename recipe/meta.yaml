@@ -25,7 +25,7 @@ requirements:
 test:
   commands:
     - parallel --version  # [not win]
-    - bash -c 'parallel --citation'  # [win]
+    - bash -c 'parallel --plain --citation'  # [win]
 #    - bash -c 'export SHELL=`cygpath -u "$BASH"`; parallel --plain --version'  # [win]
 
 about:
