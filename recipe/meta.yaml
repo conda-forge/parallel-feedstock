@@ -1,5 +1,5 @@
-{% set version = "20201122" %}
-{% set sha256 = "4da0bf42c466493b44dcbd8750e7bf99c31da4c701e8be272276c16ec4caff30" %}
+{% set version = "20210222" %}
+{% set sha256 = "4e69b00aeb62f74ea2fdc6579d31d2b4a4cc0a64fe75cf61926312402f1be72b" %}
 
 package:
   name: parallel
@@ -25,7 +25,7 @@ requirements:
 test:
   commands:
     - parallel --version  # [not win]
-    - bash -c 'export SHELL=`cygpath -u "$BASH"`; parallel --plain --version || true'  # [win]
+    - bash -c 'export SHELL=`cygpath -u "$BASH"`; parallel --plain --version'  # [win]
 
 about:
   home: http://www.gnu.org/software/parallel/
