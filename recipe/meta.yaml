@@ -1,5 +1,5 @@
-{% set version = "20210222" %}
-{% set sha256 = "4e69b00aeb62f74ea2fdc6579d31d2b4a4cc0a64fe75cf61926312402f1be72b" %}
+{% set version = "20210422" %}
+{% set sha256 = "be3e6a3b644467bef25905cb4fd917e67eef982ba4f6e258df25bb0235b59ee8" %}
 
 package:
   name: parallel
@@ -32,7 +32,7 @@ about:
   license: GPL-3
   license_family: GPL
   summary: GNU parallel is a shell tool for executing jobs in parallel using one or more computers.
-  license_file: COPYING
+  license_file: LICENSES/GPL-3.0-or-later.txt
 
 extra:
   recipe-maintainers:
