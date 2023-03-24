@@ -1,11 +1,11 @@
-About parallel
-==============
+About parallel-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/parallel-feedstock/blob/main/LICENSE.txt)
 
 Home: http://www.gnu.org/software/parallel/
 
 Package license: GPL-3
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/parallel-feedstock/blob/main/LICENSE.txt)
 
 Summary: GNU parallel is a shell tool for executing jobs in parallel using one or more computers.
 
