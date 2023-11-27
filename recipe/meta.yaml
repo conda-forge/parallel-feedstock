@@ -1,5 +1,5 @@
-{% set version = "20230922" %}
-{% set sha256 = "11447416dd5e5df65013cf7b4542e140938a3bfd5f3f3095c9edb168fcbfe063" %}
+{% set version = "20231122" %}
+{% set sha256 = "822c9cf8aa171520ad867db13ef13426669bd164c81b900a3dbcb556611beae2" %}
 
 package:
   name: parallel
