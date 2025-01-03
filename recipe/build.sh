@@ -1,5 +1,8 @@
 #!/bin/bash
 
-./configure --prefix=$PREFIX
+set -ex
+
+./configure --prefix="$PREFIX"
 make
+make check
 make install
