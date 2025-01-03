@@ -1,12 +1,12 @@
-{% set version = "20241122" %}
-{% set sha256 = "1a9e752f42c17ca10bc07d0a63a2ca6edcee532282e55d2b34bd9dd14c978a58" %}
+{% set version = "20241222" %}
+{% set sha256 = "7a1b038cb198604107f9601b7c2a176e78d845858121708fa8690671cb301a79" %}
 
 package:
   name: parallel
   version: {{ version }}
 
 source:
-  url: http://ftpmirror.gnu.org/parallel/parallel-{{ version }}.tar.bz2
+  url: https://ftpmirror.gnu.org/parallel/parallel-{{ version }}.tar.bz2
   fn: parallel-{{ version }}.tar.bz2
   sha256: {{ sha256 }}
 
