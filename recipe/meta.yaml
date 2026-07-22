@@ -11,6 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
+  noarch: generic
   number: 0
   skip: True  # [win]
 
@@ -25,8 +26,7 @@ requirements:
 
 test:
   commands:
-    - parallel --version  # [not win]
-    - bash -c 'export SHELL=`cygpath -u "$BASH"`; parallel --plain --version'  # [win]
+    - parallel --version
 
 about:
   home: http://www.gnu.org/software/parallel/
